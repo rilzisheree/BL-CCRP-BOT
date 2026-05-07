@@ -6,7 +6,7 @@ export default function register(client: Client): void {
     console.log(`[Bot] In ${readyClient.guilds.cache.size} server(s)`);
 
     readyClient.user.setPresence({
-      activities: [{ name: "over the servers", type: ActivityType.Watching }],
+      activities: [{ name: "Moderating the Shikai World.", type: ActivityType.Watching }],
       status: "online",
     });
   });
